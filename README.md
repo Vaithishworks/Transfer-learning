@@ -113,7 +113,7 @@ The mAP of the model after transfer learning :
 As shown in the figure below, with increasing epochs, both training and validation loss consistently decrease, while the mAP improves
 ultimately reaching the target of 75%.
 <div align="center">
-    <img src="model_utils/combined_plot.png" width=1000 height=600>
+    <img src="model_utils/training_related_data/combined_plot.png" width=1000 height=600>
 </div>
 The results after Transfer Learning :
 AP's:
@@ -130,5 +130,5 @@ Mean Average Precision (mAP):	0.7554
 Converted the trained .pth model to .onnx format and gave the path in the  detectnet.ros2.launch file. The model now performs robust real-time detection of street objects in the model city.
 The image below shows the output of the trained model after transfer learning. We can see a better detection of street-relevant objects, confirming the effectiveness of the training process.
 <div align="center">
-    <img src="model_utils/image_000406.jpg" width=1000 height=600>
+    <img src="model_utils/training_related_data/Real_time_Detection.jpg" width=1000 height=600>
 </div>
