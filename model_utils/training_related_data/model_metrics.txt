@@ -1,0 +1,11 @@
+AP's:
+	traffic light: 		0.75
+	dummyperson: 		0.87
+	car:			0.79
+	potted plant:		0.79
+	building:		0.90
+	street sign:		0.29
+	person:			0.85
+
+Mean Average Precision (mAP):	0.75
+

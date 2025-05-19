@@ -1,0 +1,8 @@
+Command: 
+	python3 train_ssd.py --data=/home/af/deep_learning_transfer_exercise/dataset --model-dir=/home/af/deep_learning_transfer_exercise/models/ --dataset-type=voc --pretrained-ssd=/opt/jetson-inference/python/training/detection/ssd/models/mobilenet-v1-ssd-mp-0_675.pth
+	--batch-size=4 --epoch=300 --learning-rate=0.0005 --momentum=0.9 --weight-decay=0.0005
+
+Dataset:
+	1307 Images from 3 recording days
+	7 classes (building (445), car (781), dummyperson (951), person (515), potted plant (1476), street sign (475), traffic light (2207))
+	Split: 70% training, 20% validation, 10% training

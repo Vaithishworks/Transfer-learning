@@ -1,0 +1,32 @@
+The values are only an idea, the point here is to have the points in mind.
+
+
+Things to define:
+    Aim:
+        mAP > 75% (that’s enough)
+
+    Classes:
+        Car, Pedestrian, Tree, Traffic light, school
+
+    Data:
+        Which conditions (light, etc.)?
+        Normal drive without (specific) objects
+        Static recording with different objects in different orientations and positions ‘in front’ of camera
+        Image number (Everyone could annotate 100 images à 500 images overall) 
+    
+    Annotation guideline 
+        How much of an object must be visible to be considered as an object?
+        Assume 10 person directly next to each other: One person or several?
+
+    Additional definitions:
+        Different training strategies? (Batch size, epochs, stop criteria, data splits, etc.)
+        Data augmentation and preprocessing?
+
+
+Procedure:
+    Record images
+    Annotate images
+    Create dataset
+    Train model
+    Test model in real world
+    Iterate process, if still necessary

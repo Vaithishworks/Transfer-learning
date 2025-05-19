@@ -1,0 +1,8 @@
+BACKGROUND
+traffic light
+dummyperson
+car
+potted plant
+building
+street sign
+person

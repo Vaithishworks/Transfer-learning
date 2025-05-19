@@ -1,0 +1,35 @@
+1) traffic light 
+- Only signal lights should be annoted (from front)
+- at least 1/3rd of object is visible
+
+2) dummyperson [doll]
+- all parts to be annotated 
+- minimum 25% of object should be visible
+- occluded objects at least head should be visible.
+
+3) potted plant 
+- all parts to be annotated
+- all profiles to be considered
+- minimum 25% of object should be visible
+
+4) person [real person]
+- all parts to be annotated
+- minimum 25% of object should be visible
+- all profiles to be considered
+
+5) car
+- minimum 25% of object should be visible
+- all profiles to be considered
+
+6) street sign
+- minimum 'sign board' should be visible
+- frint and side profile to be considered (0-180 degrees)
+
+7) building
+- minimum 25% of object should be visible
+- all profiles to be considered
+
+Note 
+- For occluded objects, annnotate till you see the unique features of the objects
+- If the object is split into two and each part is visible more than 25% then it should annotated seperately otherwise only annotate the part which is visible minimum 25%
+- click on 'mark null' is the object contains no objects.
